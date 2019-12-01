@@ -1,0 +1,125 @@
+html {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	/*border: 1px solid blue;*/
+}
+
+.position-center {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.nav-title {
+	font-size: 180%;
+}
+
+.border-top-black {
+	border-top: 1px solid black;
+}
+
+.hero-header {
+	background-image: url('../img/main.jpg');
+}
+
+.bg-trans {
+	background-color: transparent;
+}
+
+.product-card {
+	height: 220px;
+}
+
+.product-image {
+	height: 150px;
+	width: 100%;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+/* BREADCRUMBS */
+.bg-lightgray {
+	background-color: #e9ecef;
+}
+
+ /* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: ">";
+}
+
+ul.breadcrumb li:last-child {
+  font-weight: bold;
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+
+.title-decorator {
+	height: 1px;
+	background-color: black;
+	width: 45%;
+}
+
+.slide-container {
+	margin: 0 -1rem;
+}
+
+.slide-article {
+	height: 180px;
+	width: 200px;
+}
+
+.imagen-pedido {
+	width: 100px;
+	height: 80px;
+	border: 1px solid black;
+}
+
+.cantidad-pedido {
+	width: 30px;
+}
+
+.articulo-pedido {
+	border-top: 1px solid black;
+}
+
+.total-pedido {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.cantidad-carrito {
+	width: 50px;
+}
+
+.total-cart {
+	background-color: #e9ecef;
+}
